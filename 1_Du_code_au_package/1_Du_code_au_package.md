@@ -45,7 +45,7 @@ mysimplepackage/
     contient tout le code du package  
 
 > __ init __.py (fichier vide)    
-    permet de définir (indiquer) que le répertoire est un packahe Python  
+    permet de définir (indiquer) que le répertoire est un package Python  
 
 <br>
 
@@ -69,7 +69,7 @@ ____|-- regression.py
 
 ## Documentation 
 
-> Pourquoi ?
+> **Pourquoi** ?
 - permet à d'autres développeurs d'utiliser le code
 - documenter chaque :
     - fonction
@@ -96,7 +96,7 @@ Parameters
         The default, axis=None, will sum all of the elements of the input array.  
     ...  
 
-> documenter une fonction
+> **documenter une fonction**
 
 ```py
 def count_words(filepath, words_list):  
@@ -107,7 +107,7 @@ def count_words(filepath, words_list):
     """
 ```
 
-> style de documentation  
+> **style de documentation** 
 
 - Google documentation style
 
@@ -152,7 +152,7 @@ Extended description of function.
 @param arg2: Description of arg2
 ```
 
-> Templates de documentation et changement (switch) de style
+> **Templates de documentation et changement (switch) de style**
 
 - `pyment` peut ête utilisé pour générer des docstrings
 - depuis le Terminal
@@ -172,7 +172,7 @@ pyment -w -o numpydoc textanalysis.py
 ppyment -w -o google textanalysis.py
 ```
 
-> Package, subpackage et module (documentation)
+> **Package, subpackage et module (documentation)**
 
 ```
 mysklearn/__init__.py
